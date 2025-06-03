@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "lib/spec/"
+          separate_models: true
+          output_folder: 'lib/generated/'
+          use_path_for_request_names: true
+          use_parameters_in_request_name: true
+          use_parameters_for_request_name: true
+          input_urls: 
+            - url: https://raw.githubusercontent.com/elevenlabs/elevenlabs-docs/refs/heads/main/fern/apis/api/openapi.json
+              file_name: "elevenlabs_openapi.json"
