@@ -1,4 +1,4 @@
-name: eleven_labs_generator
+name: eleven_labs_client
 description: Swagger Chppper Json Serializable Generated Code for Eleven Labs API
 version: 1.0.0
 repository: https://github.com/ArcaneArts/eleven_labs
@@ -6,6 +6,8 @@ environment:
   sdk: ^3.7.0
 dependencies:
   chopper: ^8.1.0
+  collection: ^1.19.1
+  http: ^1.4.0
   json_annotation: ^4.9.0
 dev_dependencies:
   build_runner: ^2.4.15
