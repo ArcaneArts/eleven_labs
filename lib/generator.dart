@@ -1,4 +1,4 @@
-// Openapi Generator last run: : 2025-06-03T08:31:11.208228
+// Openapi Generator last run: : 2025-06-03T08:32:27.533557
 library eleven_labs;
 
 import 'package:openapi_generator_annotations/openapi_generator_annotations.dart';
